@@ -20,6 +20,7 @@ int main (){
 		}
 		printf("\t]\n");
 		printf("Se libera el espacio reservado.\n");
+		//El comando free libera la memoria reservada para permitir que otro programa pueda usarla
 		free(arreglo);
 	}
 	return 0;
